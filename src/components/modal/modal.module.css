@@ -1,0 +1,21 @@
+.form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 40rem;
+  align-items: center;
+  text-align: center;
+}
+
+/* .form input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form div:last-child input {
+  margin-bottom: 0;
+} */
