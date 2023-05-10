@@ -1,0 +1,55 @@
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+td {
+  height: 5rem;
+}
+td div{
+  cursor: pointer;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.subordinate-row{
+background: #00000048;
+
+}
+
+.subordinate-row:hover{
+  transition: .2s ease-in-out;
+  color:white;
+}
+
+.headEmployee-row{
+  margin-right: 10rem;
+}
+
+.headEmployee-row:hover{
+  transition: .2s ease-in-out;
+  color:black;
+  background-color: rgba(255, 0, 0, 0.493);
+}

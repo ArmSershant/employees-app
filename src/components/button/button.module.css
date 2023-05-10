@@ -1,0 +1,58 @@
+.btn {
+  width: fit-content;
+  position: relative;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  transition: 0.5s ease;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn_primary {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+}
+
+.btn_primary:hover {
+  background-color: white;
+  color: black;
+  border: .5px solid black;
+}
+
+.btn_secondary {
+  border: .5  px solid black;
+  background: rgb(168, 164, 164);
+  color: black;
+}
+
+.btn_secondary:hover {
+  color: white;
+  background: transparent;
+  border: .5px solid black
+}
+
+.btn_danger {
+  background-color: red;
+  color: white;
+}
+
+.btn_danger:hover {
+  background-color: white;
+  color: red;
+  border: .5px solid black;
+}
+
+.btn_medium {
+  width: 6rem;
+  font-size: 15px;
+  padding: 10px 15px;
+}
+
+.btn_small {
+  width:4rem;
+  font-size: 12px;
+  padding: 5px 10px;
+}
